@@ -63,7 +63,11 @@
     
 ### Video results
   Here are our results. Throttle was set to 0.3, and it also proved a stable scenario. Both the tracks were
-  successfully driven by our model learnt only on data from Track 1
+  successfully driven by our model learnt only on data from Track 1. 
+  Learning from tricky situations was required to get out of trouble. We generated lots of simulator training
+  but that wasnt found very effective, due to observations listed belows.
+  Combination of learning rate, as well as image augmentation techniques helped to train the model for 
+  unexpected siutations on track 2. 
   
   
 ### Observations
