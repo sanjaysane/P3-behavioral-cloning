@@ -35,8 +35,11 @@
 ### Model training vagaries
   Since we'e limited data during training, and actual conditions during test drive may vary, we apply a series
   of image processing on the individual images, and create tons of augmented data and train on it. Series of
-  image processing, which happens in randomized fashion, involves
-    image shearing 
+  image processing, on a representative original image, such as this,
+<p align="center">
+ <img src="./original.png" width="550">
+</p>
+  Processing each function happens in randomized fashion, involves image shearing 
 <p align="center">
  <img src="./shear.png" width="550">
 </p>
